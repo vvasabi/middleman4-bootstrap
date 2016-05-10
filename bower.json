@@ -1,0 +1,8 @@
+{
+  "name": "middleman4-bootstrap",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}

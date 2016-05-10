@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Middleman 4 with Bootstrap</title>
+  <%= stylesheet_link_tag 'bootstrap' %>
+</head>
+<body>
+<div class="container">
+  <h1>Middleman 4 with Bootstrap</h1>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+    <li><a href="#profile" data-toggle="tab">Profile</a></li>
+    <li><a href="#messages" data-toggle="tab">Messages</a></li>
+    <li><a href="#settings" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="home">
+      <p>
+        <a href="javascript:void(0)" class="btn btn-primary">Do Something</a>
+      </p>
+    </div>
+    <div class="tab-pane" id="profile">
+      <p>
+        Profile
+      </p>
+    </div>
+    <div class="tab-pane" id="messages">
+      <p>
+        Mesasges
+      </p>
+    </div>
+    <div class="tab-pane" id="settings">
+      <p>
+        Settings
+      </p>
+    </div>
+  </div>
+
+  <%= javascript_include_tag 'bootstrap' %>
+</div>
+</body>
+</html>
